@@ -1,5 +1,7 @@
 # MythAPI
 
+## Table of contents
+
 A REST API, built with .NET 8 and Entity Framework Core, for managing mythological gods, their aliases, and the mythologies they belong to.
 
 ## Overview
