@@ -2,6 +2,9 @@
 
 A REST API, built with .NET 8 and Entity Framework Core, for managing mythological gods, their aliases, and the mythologies they belong to.
 
+## General
+This are general information.
+
 ## Overview
 
 MythAPI is a minimal-API (`dotnet new web`) application organized by domain rather than by technical layer. It persists data in PostgreSQL via Entity Framework Core, exposes a versioned HTTP API (`/api/v1`), and documents itself via Swagger/OpenAPI. Configuration secrets (database credentials, etc.) are retrieved from an Azure Key Vault at startup.
